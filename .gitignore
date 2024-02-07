@@ -1,4 +1,5 @@
 myfirtsbot/
-./recursos/
+recursos/*
+recursos
 .env
 test.*
