@@ -90,16 +90,14 @@ def handle_text(message):
 #     bot.reply_to(message, "this is message.text: " + message.text)
 
 
-
-
 # wich could also be defined as
 def is_textPlain(message):
     return message.document.mime_type == 'text/plain'
 
 
-@bot.message_handler(func=is_textPlain, content_types=['document'])
-def handle_text_doc(message):
-    bot.reply_to(message, "this document is type 'text/plain' - seccon way")
+# @bot.message_handler(func=is_textPlain, content_types=['document'])
+# def handle_text_doc(message):
+#     bot.reply_to(message, "this document is type 'text/plain' - seccon way")
 
 
 # handlers can be stacked to create a function wich be
