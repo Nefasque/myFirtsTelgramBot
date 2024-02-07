@@ -1,0 +1,5 @@
+pyTelegramBotAPI
+loggin
+python-dotenv 
+aiohttp
+requests
